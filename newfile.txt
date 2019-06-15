@@ -306,4 +306,5 @@ Tools
 Store
 Newsletter
 © 2019 Pivotal Software, Inc. All Rights Reserved. Terms of Use • Privacy • Trademark Guidelines 
-
+To resolve a merge conflict caused by competing line changes, you must choose which changes to incorporate from the different branches in a new commit.
+For example, if you and another person both edited the file styleguide.md on the same lines in different branches of the same Git repository, you'll get a merge conflict error when you try to merge these branches. You must resolve this merge conflict with a new commit before you can merge these branches.
